@@ -6,7 +6,7 @@
     "license": "GPL-2.0+",
     "authors": [],
     "require": {
-        "htmlburger/carbon-fields": "dev-maps-improvement"
+        "htmlburger/carbon-fields": "^3.0"
     },
     "autoload": {
         "files": [
