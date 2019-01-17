@@ -1,5 +1,7 @@
 # Carbon Field Icon
 
+[![Packagist](https://img.shields.io/packagist/vpre/htmlburger/carbon-field-icon.svg?style=flat-square&colorB=0366d6)](https://packagist.org/packages/htmlburger/carbon-field-icon)
+
 Provides the ability to select an icon or a glyph.
 
 ## Supported glyphs
@@ -37,11 +39,10 @@ Custom icon list:
 
                 // Full settings:
                 'my-custom-icon-2' => array(
-                    'name'        => 'My Custom Icon 2',
-                    'id'          => 'my-custom-icon-2',
-                    'class'       => 'my-custom-prefix-class',
-                    'contents'    => '&nbsp;',
-                    'categories'  => array( 'shop', 'checkout', 'product' ),
+                    'name'         => 'My Custom Icon 2',
+                    'id'           => 'my-custom-icon-2',
+                    'class'        => 'my-custom-prefix-class',
+                    'search_terms' => array( 'shop', 'checkout', 'product' ),
                 ),
             );
         } ),
